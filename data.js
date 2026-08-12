@@ -1,7 +1,30 @@
 // data.js
 const skillData = [
-  {
+ {
     id: "skill-1",
+    category: "Hard Skill",
+    title: "Galatama Fishing",
+    desc: "Competitive pond fishing where timing, bait choice, and reading the water matter more than luck.",
+    image: "https://images.unsplash.com/photo-1445264718234-989262cbe12e?auto=format&fit=crop&w=800&q=80",
+    level: "Intermediate",
+    duration: "2 Weeks",
+    instructor: "Bram (Galatama Angler)",
+    content: "Learn how to read pond conditions, mix bait for competitive stocking, and adjust casting strategy as the session progresses. <strong>Built around real match-day scenarios</strong>, not just casual weekend fishing.",
+    specs: {
+        "Equipment": "Rod, Reel, Bait Mix",
+        "Focus": "Competitive Pond Fishing",
+        "Prerequisites": "Basic Casting Skills",
+        "Output": "Match-Ready Fishing Strategy"
+    },
+    modules: [
+        "Module 1: Reading Pond Conditions & Fish Behavior",
+        "Module 2: Mixing Bait for Stocked Ponds",
+        "Module 3: Casting Position & Timing Strategy",
+        "Module 4: Match-Day Mental Game & Adjustments"
+    ]
+  },
+  { 
+    id: "skill-2",
     category: "Hard Skill",
     title: "Basic Cooking for Beginners",
     desc: "Fundamental kitchen techniques that level up your home cooking, no more burnt or over-salted dishes.",
@@ -21,29 +44,6 @@ const skillData = [
       "Module 2: Sauteing Basics and Balanced Flavor",
       "Module 3: Cooking Time Management",
       "Module 4: Simple Plating"
-    ]
-  },
-  {
-    id: "skill-2",
-    category: "Soft Skill",
-    title: "Personal Finance Management",
-    desc: "Manage your monthly salary so it lasts, instead of just waiting for payday.",
-    image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80",
-    level: "Beginner",
-    duration: "3 Weeks",
-    instructor: "Dimas (Financial Coach)",
-    content: "Covers simple budgeting, emergency funds, and how to start saving without it feeling like a burden. <strong>No complicated theory, just habits you can apply right away.</strong>",
-    specs: {
-      "Tools": "Spreadsheet / Budgeting App",
-      "Focus": "Monthly Income & Savings",
-      "Prerequisites": "None",
-      "Output": "Personal Budget Plan"
-    },
-    modules: [
-      "Module 1: Mapping Monthly Expenses",
-      "Module 2: Building an Emergency Fund",
-      "Module 3: Automated Saving System",
-      "Module 4: Budget Evaluation & Adjustment"
     ]
   },
   {
