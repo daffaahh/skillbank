@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Specs | SkillBank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">SkillBank</a>
+            <a href="index.html" class="btn btn-outline">Back to Home</a>
+        </div>
+    </nav>
+    <main class="container detail-wrapper">
+        <div id="detail-content" class="section-fade">
+            <h2 style="text-align:center; padding: 100px;">Injecting Data...</h2>
+        </div>
+        
+        <!-- Registration Form Section (Required HTML Form) -->
+        <section class="registration-form fade-up">
+            <div class="form-card">
+                <h3>Enroll in this Curriculum</h3>
+                <p>Fill out your details below.</p>
+                <form action="#" method="POST" id="enrollmentForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="e.g. John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="dummy@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Why do you want to learn this?</label>
+                        <textarea id="reason" name="reason" rows="3" placeholder="State your rational goals..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Confirm Enrollment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p>everything that shown in this site was a dummy data. proposed for completing task from Universitas Cyber Asia</p>
+        </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
