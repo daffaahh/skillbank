@@ -5,7 +5,7 @@ const skillData = [
     category: "Hard Skill",
     title: "Galatama Fishing",
     desc: "Competitive pond fishing where timing, bait choice, and reading the water matter more than luck.",
-    image: "https://images.unsplash.com/photo-1445264718234-989262cbe12e?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1541742425281-c1d3fc8aff96?auto=format&fit=crop&w=800&q=80",
     level: "Intermediate",
     duration: "2 Weeks",
     instructor: "Bram (Galatama Angler)",
