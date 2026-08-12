@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <span class="badge">${skill.category}</span>
                         <h3>${skill.title}</h3>
                         <p>${skill.desc}</p>
-                        <a href="detail.html?id=${skill.id}" class="btn btn-outline">Review Specs</a>
+                        <a href="detail.html?id=${skill.id}" class="btn btn-outline">Review Course</a>
                     </div>
                 `;
                 grid.appendChild(card);
